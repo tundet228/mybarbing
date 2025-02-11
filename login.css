@@ -1,0 +1,311 @@
+body {
+    background-image: url(jpg/pay.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+#navP{
+    margin-left: 55%;
+    margin-top: -30%;
+    display: inline-block;
+    align-content: end;
+
+    
+}
+ 
+#navP button{
+    padding: 10px;
+    color: blue;
+    background-color: aquamarine;
+    border: groove;
+    border-radius: 20px;
+    margin: 10px;
+    display: inline;
+    align-content: end;
+    background-image: url(jpg/pay.webp);
+    margin-top: -20px;
+    cursor: pointer;
+    
+}
+
+#navP button:active{
+    color: aquamarine;
+    background-color: blue;
+    margin-top: -20%;
+    
+}
+#navP button:hover{
+    opacity: 0.5;
+}
+#imgpay{
+    margin-top: 2%;
+    width: 1000px;
+   
+}
+#logimH{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#wrpper{
+    background-color: blue;
+    display: inline-block;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 50px;
+    padding-top: 5px;
+    border-radius: 20px;
+    border: groove;
+
+    
+}
+#loginname{
+    padding: 5px;
+    padding-right: 70px;
+    border-end-end-radius: 20px ; 
+    border: groove;
+    border-color: aqua;
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+
+}
+.loginname  {
+    color: rgb(71, 187, 187);
+
+}
+
+#password{
+    padding: 5px;
+    padding-right: 70px;
+    border-end-end-radius: 20px ;
+    border: none;
+    border-top-left-radius: 20px ;
+    padding-left: 20px;
+    border: groove;
+    border-color: aqua;
+}
+.password{
+    color: rgb(57, 133, 196);
+}
+#signupnow{
+    color: rgb(45, 171, 180);
+}
+#signupnow:active{
+opacity: 0.5;
+}
+
+.signupnow{
+    color: aqua;
+    margin-left: 36%; 
+}
+
+
+#loginBtn{
+    color: azure;
+    background-color: rgb(41, 50, 177);
+    padding: 5px;
+    padding-right: 200px;
+    padding-left:200px ;
+    border: none;
+    border-radius: 10px;
+    border: groove;
+    border-color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+#loginBtn:hover{
+opacity: 0.5;
+}
+#loginBtn:active{
+    color: rgb(41, 50, 177);
+    background-color: azure;
+}
+
+
+.ibn{
+    color: hsl(249, 100%, 50%);
+    background-color: #ff006a;
+    font-size: 30px;
+    float: right;
+    padding: 30px;
+    border-radius: 100px;
+    margin-right: 5%;
+    display: inline;
+}
+#company{
+    color: aqua;
+    background-color: blue;
+    display: inline;
+    padding: 10px;
+    border: none;
+    border-end-end-radius: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-top: 2%;
+    float: left;
+    display: inline;
+    
+}
+
+.vcard{
+   
+    border-radius: 1000px;
+    width: 300px;
+    height: 300px;
+    margin-right: 70%;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-bottom: -10%;
+    
+
+}
+#logimH2{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: inherit;
+}
+#wrpper2{
+    background-image: url(jpg/pay.webp);
+    display: inline-block;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    padding: 50px;
+    padding-top: 5px;
+    border-radius: 20px;
+    border: groove;
+    transition-duration: 1s;
+    transform-style: inherit;
+}
+
+#loginname2{
+    padding: 5px;
+    padding-right: 70px;
+    border-end-end-radius: 20px ; 
+    border: groove;
+    border-color: aqua;
+    border-top-left-radius: 20px;
+    padding-left: 20px;
+    transition-duration: 1s;
+
+}
+.loginname2  {
+    color: rgb(71, 187, 187);
+
+}
+
+#password2{
+    padding: 5px;
+    padding-right: 70px;
+    border-end-end-radius: 20px ;
+    border: none;
+    border-top-left-radius: 20px ;
+    padding-left: 20px;
+    border: groove;
+    border-color: aqua;
+}
+.password2{
+    color: rgb(57, 133, 196);
+}
+#signupnow2{
+    color: rgb(45, 171, 180);
+}
+
+#signupnow2:active{
+opacity: 0.5;
+}
+
+.signupnow2{
+    color: aqua;
+    margin-left: 36%; 
+}
+
+
+#loginBtn2{
+    color: azure;
+    background: transparent;
+    padding: 5px;
+    padding-right: 200px;
+    padding-left:200px ;
+    border: none;
+    border-radius: 10px;
+    border: groove;
+    border-color: rgb(0, 255, 255);
+    cursor: pointer;
+    transition-duration: 2s;
+    
+    
+}
+#loginBtn2 href {
+    text-decoration: none;
+    
+}
+#loginBtn2:hover{
+opacity: 0.5;
+}
+#loginBtn2:active{
+    color: rgb(41, 50, 177);
+    background-color: azure;
+}
+.ibn{
+    color: hsl(249, 100%, 50%);
+    background-color: #ff006a;
+    font-size: 30px;
+    float: right;
+    padding: 30px;
+    border-radius: 100px;
+    margin-right: 5%;
+    display: inline;
+}
+#company{
+    color: aqua;
+    background-color: blue;
+    display: inline;
+    padding: 10px;
+    border: none;
+    border-end-end-radius: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-top: 2%;
+    float: left;
+    display: inline;
+    
+}
+
+.vcard{
+   
+    border-radius: 1000px;
+    width: 300px;
+    height: 300px;
+    margin-right: 70%;
+    border-radius: 20px;
+    margin-left: 4%;
+    margin-bottom: -10%;
+    
+
+}
+
+
+#wrpper-#wrpper2{
+transition-duration: 1s;
+}
+#reset-password{
+    color: #ff006a;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 37%;
+    
+}
+.container  button{
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+}

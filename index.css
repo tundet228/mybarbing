@@ -1,0 +1,258 @@
+body{
+    background-image: url(jpg/back2.jpg);
+    align-content: normal;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+#name {
+    color: #edebf0;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 3%;
+}
+#myText {
+    color: #f8f8fc;
+    background-color: #272626;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 3%;
+}
+
+#head{
+    color: green;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 3%;
+}
+.ibn{
+    color: hsl(249, 100%, 50%);
+    background-color: #ff006a;
+    font-size: 30px;
+    float: right;
+    padding: 30px;
+    border-radius: 100px;
+    margin-right: 5%;
+}
+#company{
+    color: aqua;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    border-end-end-radius: 40px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+    font-family: sans-serif;
+    margin-top: 2%;
+}
+#mySubmit{
+
+    margin-left: 3%;
+    color: rgb(68, 0, 255);
+    background-color: yellow;
+    font-size: 20px;
+    margin-top: 3px;
+    border: none;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    pointer-events: visible;
+}
+#mySubmit:hover{
+    color: rgb(20, 6, 9);
+    background-color: aliceblue;
+    opacity: 0.9;
+    animation: 0.2s;
+}
+#mySubmit:active{
+    color: aliceblue;
+    background-color: black;
+}
+#myText input{
+    color: greenyellow;
+}
+.payhere{
+    color: #ff006a;
+    margin-top: 10px;
+    margin: 2px;
+    font-size: 20px;
+    background:url(jpg/pay.webp);
+    display: inline-block;
+    padding: 20px;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    float: right;
+    
+}
+#visaBtn{
+    margin-bottom: 10px;
+    
+}
+#masterBtn{
+    margin-bottom: 10px;
+}
+#payPalBtn{
+    color: ;
+}
+#check{
+    color: bisque;
+    background-color: blue;
+    font-size: 20px;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+}
+#mySubmitt{
+
+    margin-left: 80%;
+    color: rgb(68, 0, 255);
+    background-color: #cfdad2;
+    font-size: 20px;
+    margin-top: 50px;
+    border: none;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+#mySubmitt:hover{
+    color: rgb(20, 6, 9);
+    background-color: aliceblue;
+    opacity: 0.9;
+    animation: 0.2s;
+}
+#mySubmitt:active{
+    color: aliceblue;
+    background-color: black;}
+
+#result{
+    margin-left: 17px;
+}
+#paymentR{
+    color: blue;
+    background-color: azure;
+    display: inline-block;
+    margin-top: -15px;
+    padding: 5px;
+    border: none;
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px;
+    margin-left: 5%;
+}
+#subR{
+    margin-left: 5%;
+}
+#noteEl{
+color: rgb(99, 42, 2);
+font-style: normal;
+justify-content: center;
+margin-bottom: 2%;
+margin-left: 3%;
+}
+#navP{
+    margin-left: 55%;
+    margin-top: -30%;
+    display: inline-block;
+    align-content: end;
+}
+
+#navP button{
+    padding: 10px;
+    color: blue;
+    background-color: aquamarine;
+    border: groove;
+    border-radius: 20px;
+    margin: 10px;
+    display: inline;
+    align-content: end;
+    margin-top: -20px;
+    cursor: pointer;
+    
+}
+
+#navP button:active{
+    color: aquamarine;
+    background-color: blue;
+    margin-top: -20%;
+    
+    
+}
+#navP button:hover{
+    opacity: 0.5;
+}
+
+.vcard{
+   
+    border-radius: 1000px;
+    width: 25px;
+}
+#mcard{
+    border-radius: 1000px;
+    width: 30px; 
+}
+#pcard{
+    border-radius: 1000px;
+    width: 25px;
+}
+.location{
+    justify-content: last baseline;
+    margin-top: 10%;
+    float: right;
+    color: chocolate;
+    font-weight: bolder;
+}
+
+#divP{
+    background-color: aqua;
+    padding: 10px;
+    color: blue;
+    border:none;
+    border-radius: 20px;
+}
+#Incard{
+    padding: 5px;
+    color: chartreuse;
+}
+#Indate {
+    padding: 5px;
+    color: chartreuse;
+    font-size: 15px;
+}
+#Innumber{
+    padding: 5px;
+    color: chartreuse;
+}
+
+#makeP{
+    color: rgb(20, 6, 9);
+    background-color: aliceblue;
+    opacity: 0.9;
+    animation: 0.2s;
+    margin-top: 2%;
+    margin-left: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+#makeP:hover{
+    color: rgb(20, 6, 9);
+    background-color: aliceblue;
+    opacity: 0.9;
+    
+}
+#makeP:active{
+    color: aliceblue;
+    background-color: black;
+    
+
+}
